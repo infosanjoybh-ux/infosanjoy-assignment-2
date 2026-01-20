@@ -123,21 +123,71 @@ body {
 
     box-shadow: 0 0 10px rgba(0, 255, 120, 0.6);
 }
-/*.about{
-    height: 600px;
-    width: 1600x;
-    padding: 50px 200px 120px 200px;
+.hero-1 .hero-2 h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.hero-1 .hero-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-1 .hero-2 .button-1{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 100px;
+    border: none;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+.hero-1 .hero-2 .button-2{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 16px 12px 16px;
+    
+    border: 3px solid #1cff6d;
+    border-radius: 50px;
+    color: #1cff6d;
+    background: #1A0B2E;
+}
+.hero-1 .hero-2 .button-c{
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.about {
+    min-height: 600px;
+    max-width: 1100px;
+    padding: 50px 0 120px;
     margin: 0 auto;
+
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    gap: 80px;
+
     background: rgba(26, 11, 46, 1);
-    gap: 80;
-    
 }
+
 .about .about-1{
-    width: 1200px;
+    width: 1100px;
     height: 225px;
     display: flex;
     color: #FFFFFF;
@@ -154,13 +204,12 @@ body {
     margin: 0px;
 }
 .about .about-2{
-    width: 1200px;
+    width: 1100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: #FFFFFF solid 2px;
 }
 .about .about-2 div{
     width: 240px;
@@ -176,4 +225,4 @@ body {
     font-weight: 700;
     margin: 0px;
     color: rgba(89, 255, 0, 0.66);
-}*/
+}
