@@ -488,7 +488,6 @@ body {
         text-align: center;
         margin-bottom: 12px;
     }
-
     .navbar1 .navbar3 ul {
         flex-direction: column;
         gap: 12px;
@@ -496,7 +495,6 @@ body {
         text-align: center;
         padding: 0;
     }
-
     .navbar1 button {
         width: 100%;
         margin-top: 12px;
@@ -506,12 +504,10 @@ body {
         height: auto; /* Let it adjust */
         padding: 40px 20px;
     }
-
     .hero-1 .hero-2 {
         width: 80%; /* shrink to fit smaller screen */
         gap: 20px;
     }
-
     .hero-1 .hero-2 .hero-3 {
         width: 100%;
     }
@@ -523,19 +519,65 @@ body {
     .hero-1 .hero-2 h2 {
         font-size: 28px;
     }
-
     .hero-1 .hero-2 p {
         font-size: 14px;
     }
-
     .hero-1 .hero-2 .button-c {
         flex-direction: column;
         gap: 15px;
     }
-
     .hero-1 .hero-2 .button-1,
     .hero-1 .hero-2 .button-2 {
         width: 100%;
+    }
+    .about .about-1 {
+        width: 90%; /* shrink to fit */
+        height: auto; /* allow content to wrap */
+        gap: 15px;
+    }
+    .about .about-1 h2 {
+        font-size: 36px;
+    }
+    .about .about-1 p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .about .about-2 {
+        width: 90%;
+        flex-wrap: wrap; /* allow items to wrap */
+        gap: 15px;
+    }
+    .about .about-2 div {
+        width: 45%; /* two items per row */
+        margin-bottom: 15px;
+    }
+    .about .about-2 div h2 {
+        font-size: 28px;
+    }
+    .about .about-2 div p {
+        font-size: 14px;
+    }
+    .features {
+        width: 90%; /* shrink container */
+        padding: 40px 0;
+    }
+    .features-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        grid-auto-rows: auto;
+        gap: 20px;
+    }
+    .feature-card {
+        padding: 30px;
+    }
+
+    .resources {
+        grid-column: auto;
+        grid-row: auto;
     }
 }
 
@@ -544,20 +586,16 @@ body {
     .navbar1 {
         padding: 10px 16px;
     }
-
     .navbar1 h1 {
         font-size: 1.5rem;
     }
-
     .navbar1 .navbar3 ul {
         gap: 8px;
     }
-
     .navbar1 button {
         padding: 10px;
         font-size: 0.9rem;
     }
-
     .hero-1 {
         padding: 20px 10px;
     }
@@ -566,7 +604,6 @@ body {
         width: 100%;
         gap: 15px;
     }
-
     .hero-1 .hero-2 .hero-3 .overlay-img {
         width: 100px;
     }
@@ -574,18 +611,56 @@ body {
     .hero-1 .hero-2 h2 {
         font-size: 22px;
     }
-
     .hero-1 .hero-2 p {
         font-size: 12px;
     }
-
     .hero-1 .hero-2 .button-c {
         gap: 10px;
     }
-
     .hero-1 .hero-2 .button-1,
     .hero-1 .hero-2 .button-2 {
         font-size: 0.9rem;
         padding: 10px;
+    }
+    .about .about-1 {
+        width: 95%;
+        gap: 10px;
+    }
+    .about .about-1 h2 {
+        font-size: 28px;
+    }
+    .about .about-1 p {
+        font-size: 12px;
+    }
+    .about .about-2 {
+        width: 95%;
+        flex-direction: column; 
+        gap: 10px;
+        align-items: center;
+    }
+    .about .about-2 div {
+        width: 100%; 
+        height: auto;
+    }
+    .about .about-2 div h2 {
+        font-size: 24px;
+    }
+    .about .about-2 div p {
+        font-size: 12px;
+    }
+    .features {
+        width: 95%;
+        padding: 30px 0;
+    }
+    .features-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .features-grid {
+        grid-template-columns: 1fr; 
+        gap: 15px;
+    }
+    .feature-card {
+        padding: 20px;
     }
 }
